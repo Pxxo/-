@@ -220,7 +220,7 @@ def reload(event):
     calc_all = calc01 + calc02 + calc03 + calc04
     print(calc_all)
 
-    score = calc_all
+    score = int(calc_all)
     # option01 title
     score_option01 = tkinter.Label(text=option1[0], width=12, height=1)
     score_option01.place(x=300, y=720 + 14)
